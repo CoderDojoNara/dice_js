@@ -6,13 +6,15 @@
 <script type="text/javascript">
 function dice(){
 	var result = Math.floor(Math.random()*6) + 1;
-	var diceresult = document.getElementById('diceresult');
-	diceresult.innerHTML = result;
+	var diceimage = document.getElementById('diceimage');
+	diceimage.src = result + '.png';
 }
 </script>
 </head>
 <body>
-	<div id="diceresult">1</div>
+	<div id="diceresult">
+		<img id="diceimage" src="1.png">	
+	</div>
 	<button onclick="dice()">ボタンを押してください</button>
 </body>
 </html>
