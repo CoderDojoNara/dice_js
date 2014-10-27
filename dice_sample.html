@@ -8,6 +8,12 @@ function dice(){
 	var result = Math.floor(Math.random()*6) + 1;
 	var diceimage = document.getElementById('diceimage');
 	diceimage.src = result + '.png';
+	var quizresult = document.getElementById('quizresult');
+	if(result%2 ==0){
+		quizresult.innerHTML = "偶数です"
+	} else {
+		quizresult.innerHTML = "奇数です"
+	}
 }
 </script>
 </head>
