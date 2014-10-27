@@ -6,7 +6,7 @@
 <script type="text/javascript">
 function dice(){
 	var result = Math.floor(Math.random()*6) + 1;
-	var diceimage = document.getElementById('diceimage');
+	var diceimage = document.getElementById('diceimage1');
 	diceimage.src = result + '.png';
 	var quizresult = document.getElementById('quizresult');
 	if(result%2 ==0){
@@ -18,8 +18,8 @@ function dice(){
 </script>
 </head>
 <body>
-	<div id="diceresult">
-		<img id="diceimage" border="1" src="1.png">	
+	<div id="diceresult1">
+		<img id="diceimage1" border="1" src="1.png">	
 	</div>
 	<button onclick="dice()">ボタンを押してください</button>
 	<div id="quizresult"></div>
