@@ -9,9 +9,9 @@ function dice(){
 	var diceimage = document.getElementById('diceimage1');
 	diceimage.src = result + '.png';
 
-	var result = Math.floor(Math.random()*6) + 1;
-	var diceimage = document.getElementById('diceimage1');
-	diceimage.src = result + '.png';
+	var result_second = Math.floor(Math.random()*6) + 1;
+	var diceimage_second = document.getElementById('diceimage2');
+	diceimage_second.src = result_second + '.png';
 
 	var quizresult = document.getElementById('quizresult');
 	if(result%2 ==0){
