@@ -5,4 +5,4 @@
 コミット履歴を見てもらうとコードの作成順が分かるようになっています。
 
 サンプルサイト：
-http://acliss19xx.github.io/dice_sample/
+http://coderdojonara.github.io/dice_js
